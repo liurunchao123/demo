@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BookController {
     @GetMapping
     public String getById(){
-        System.out.println("项目运行了一次");
+        System.out.println("项目运行了 一次");
         return "项目运行了一次";
     }
 }
